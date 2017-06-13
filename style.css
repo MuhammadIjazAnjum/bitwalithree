@@ -1,0 +1,91 @@
+/*
+	style.css
+	Theme Name: Bitwali Three 
+	Theme URI: https://bitwali.com
+	Author: Muhammad Ijaz Anjum
+	Description:Simple starter content and customizer
+	Version: 3.0
+*/
+* {
+    box-sizing: border-box;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+body{
+
+	background-color: purple;
+	padding: 30px;
+}
+/*#page {
+	background-color: orange;
+}*/
+
+/*	Top Navigation		*/
+
+
+/*	.navigation-top {
+		bottom: 0;
+		font-size: 14px;
+		font-size: 0.875rem;
+		left: 0;
+		position: absolute;
+		right: 0;
+		width: 100%;
+		z-index: 3;
+	}
+*/
+/*	.navigation-top .wrap {
+		max-width: 1000px;
+*/		/* The font size is 14px here and we need 50px padding in ems */
+/*		padding: 0.75em 3.4166666666667em;
+	}
+*/
+/*	.navigation-top nav {
+		margin-left: -1.25em;
+	}
+*/
+/*Manin navigation*/
+/*.main-navigation {
+		width: auto;
+	}
+
+	.main-navigation li {
+		border: 0;
+		display: inline-block;
+	}
+.main-navigation a {
+		padding: 1em 1.25em;
+	}
+
+.main-navigation {
+	clear: both;
+	display: block;
+}
+.main-navigation ul {
+	background: #fff;
+	list-style: none;
+	margin: 0;
+	padding: 0 1.5em;
+	text-align: left;
+}
+*/
